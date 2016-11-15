@@ -66,7 +66,7 @@ async def run(message, matches, chat_id, step):
                              "tmp/{}.mp3".format(message['text']))
             del user_steps[from_id]
             return [Message(chat_id).set_audio("tmp/{}.mp3".format(message['text']), title=message['text'],
-                                               performer="@Siarobot")]
+                                               performer="@SendMusicBot")]
         except Exception as e:
             del user_steps[from_id]
             return [Message(chat_id).set_text("*Wrong Input*\n_Try Again_", parse_mode="markdown")]
