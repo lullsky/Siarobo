@@ -11,8 +11,8 @@ def run(message, matches, chat_id, step):
 plugin = {
     "name": "About",
     "desc": "Get Information About The Developer!",
-    "usage": ["/about"],
+    "usage": ["/start"],
     "run": run,
     "sudo": False,
-    "patterns": ["^[!/#]about$"]
+    "patterns": ["^[!/#]start$"]
 }
