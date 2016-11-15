@@ -86,5 +86,5 @@ plugin = {
     "sudo": False,
     "callback": callback,
     "callback_patterns": ["^[!/#]help (.+?)$", "^[!/#]help$", "^[!/#]helpn (\d*)$"],
-    "patterns": ["^[!/#]help", "^[!/#]start"]
+    "patterns": ["^[!/#]help"]
 }
